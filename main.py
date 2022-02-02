@@ -46,7 +46,7 @@ def Customer(phone):
 # connect to database project in postgres
 con = psycopg2.connect(
     host="localhost",
-    database="Final Project",
+    database="Data-Diner",
     user="postgres",
     password="Password"
 )
